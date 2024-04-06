@@ -1,4 +1,9 @@
 #!/bin/bash
+
+export CC=/usr/bin/gcc-12
+export CXX=/usr/bin/g++-12
+export GCC_HOST_COMPILER_PATH=/usr/bin/gcc-12
+
 set -e
 
 # This script "exercises" various commands that we expect to run
